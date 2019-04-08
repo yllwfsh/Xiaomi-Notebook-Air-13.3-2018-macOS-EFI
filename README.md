@@ -6,18 +6,27 @@
 
 ### How to use
 * Create your macOS USB install media (e.g. https://support.apple.com/en-us/HT201372)
-* Mount the ESD (EFI System Partition) on your USB stick: (check that you mount the correct EFI partition, numbers will vary!!!)
+* Install Clover bootloader on USB stick. Select 'Install to ESP' (https://sourceforge.net/projects/cloverefiboot/files/latest/download)
+* Mount the ESP (EFI System Partition) on your USB stick: (check that you mount the correct EFI partition, numbers will vary!!!)
 
 ```
 diskutil list
 sudo diskutil mount /dev/disk3s1
 ```
-* Copy the EFI/CLOVER folder to the EFI folder on the ESD.
+* Copy and overwrite the EFI/CLOVER folder from this website to the EFI folder on the ESP.
 * Now boot the Xiaomi laptop from the install media
 * Open Disk Utility and format the builtin SSD with APFS (will delete all your files!!!)
 * Install macOS
 * After install, boot from USB again but select SSD to boot from in Clover Bootloader
 * Do initial macOS setup (use USB ethernet adapter for internet)
+* Install Clover on the SSD. Select 'Install to ESP' (https://sourceforge.net/projects/cloverefiboot/files/latest/download)
+* Mount the ESP (EFI System Partition) on your SSD (check that you mount the correct EFI partition, numbers will vary!!!)
+
+```
+diskutil list
+sudo diskutil mount /dev/disk0s1
+```
+* Copy and overwrite the EFI/CLOVER folder from this website to the EFI folder on the ESP.
 * Copy all the Kernel Extensions (kexts) in the PostInstall/Library/Extensions to your system's /Library/Extensions folder
 * Execute these commands to rebuild Kernel Extension Cache:
 
