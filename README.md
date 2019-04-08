@@ -54,9 +54,10 @@ Working:
 
 Not working:
 * Wifi & Bluetooth (because Intel cards not supported under macOS)
+* Nvidia GPU (Not supported under macOS)
 
 ### Feedback
-Please give me feedback using the Issues tab if you find some improvements to be made!
+Please give me feedback or send a pull request if you find some improvements to be made!
 
 ### Disclaimer!
 Use these files and this howto at your own risk. I'm not responsible in any way for lost data, damage to software or hardware or anything else that might go wrong. This works for me but might not for you.
