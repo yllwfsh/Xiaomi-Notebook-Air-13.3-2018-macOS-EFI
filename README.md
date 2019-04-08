@@ -1,4 +1,9 @@
 # EFI Folder for 2018 Xiaomi Notebook Air 13.3" laptops
+### Compatibility:
+* macOS 10.13 High Sierra
+* macOS 10.14 Mojave
+* Xiaomi Notebook Air 2018 13.3" i5/i7
+
 ### How to use
 * Create your macOS USB install media (e.g. https://support.apple.com/en-us/HT201372)
 * Mount the ESD (EFI System Partition) on your USB stick: (check that you mount the correct EFI partition, numbers will vary!!!)
