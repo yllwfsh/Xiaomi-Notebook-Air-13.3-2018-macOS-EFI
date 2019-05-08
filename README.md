@@ -27,12 +27,16 @@ diskutil list
 sudo diskutil mount /dev/disk0s1
 ```
 * Copy and overwrite the EFI/CLOVER folder from this website to the EFI folder on the ESP.
-* Copy all the Kernel Extensions (kexts) in the PostInstall/Library/Extensions to your system's /Library/Extensions folder
+* Copy all the Kernel Extensions (kexts) in the PostInstall/Library/Extensions to your system's /Library/Extensions folder (this is important, otherwise keyboard/trackpad and display brightness control don't work)
 * Execute these commands to rebuild Kernel Extension Cache:
 
 ```
-sudo chown -R root:wheel /Library/Extensions/*
-sudo chmod -R 755 /System/Library/Extensions/*
+sudo chmod -R 755 /System/Library/Extensions/
+sudo chown -R root:wheel /System/Library/Extensions/
+sudo chmod -R 755 /Library/Extensions/
+sudo chown -R root:wheel /Library/Extensions/
+sudo touch /System/Library/Extensions/
+sudo touch /Library/Extensions/
 sudo kextcache -i / && sudo kextcache -u /
 ```
 * Done!
