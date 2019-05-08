@@ -55,6 +55,7 @@ Working:
 * Trackpad (with near-perfect gesture emulation)
 * Webcam
 * Display brightness (remap keyboard shortcuts for it in System Preferences)
+* FileVault File encryption (alway make a backup before switching it on!!!)
 
 Not working:
 * Wifi & Bluetooth (because Intel cards not supported under macOS)
