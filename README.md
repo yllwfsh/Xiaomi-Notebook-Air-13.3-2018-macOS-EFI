@@ -76,3 +76,7 @@ Please give me feedback, open an issue or send a pull request if you find some i
 
 ### Disclaimer!
 Use these files and this howto at your own risk. I'm not responsible in any way for lost data, damage to software or hardware or anything else that might go wrong. This works for me but might not for you.
+
+### Buy me a coffee :)
+If you like my work and if it saved you precious time, please consider buying me a cup of coffee :) Thx!
+https://paypal.me/yllwfsh?locale.x=en_US
