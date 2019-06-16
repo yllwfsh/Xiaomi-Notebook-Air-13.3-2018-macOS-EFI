@@ -41,6 +41,9 @@ sudo kextcache -i / && sudo kextcache -u /
 ```
 * Done!
 
+### Audio Problems
+If you're having audio problems, especially with headphones, run the install.command script inside the ALCPlugFix folder. This will install a fix, then reboot. Audio should be better.
+
 ### What works and what doesn't?
 Working:
 * CPU Power Management
