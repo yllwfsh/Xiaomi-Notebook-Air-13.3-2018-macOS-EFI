@@ -46,7 +46,7 @@ sudo touch /System/Library/Extensions/
 sudo touch /Library/Extensions/
 sudo kextcache -i / && sudo kextcache -u /
 ```
-* Done!
+* Done! Reboot to enable all the drivers for keyboard and trackpad support.
 
 ### Audio Problems
 If you're having audio problems, especially with headphones, run the install.command script inside the ALCPlugFix folder. This will install a fix, then reboot. Audio should be better.
