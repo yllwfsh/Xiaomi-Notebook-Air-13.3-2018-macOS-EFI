@@ -1,3 +1,7 @@
+# Update (Feb 2020)
+For now I'll be discontinuing development on this repository and you can find a much more improved repo over at [johnnync13's](https://github.com/johnnync13/Xiaomi-Mi-Air). That's where I'll be helping with improving the code and all the issues. I can highly recommend switching over to that EFI folder!
+Thanks for your support and see you there.
+
 # EFI Folder for 2018 Xiaomi Notebook Air 13.3" laptops
 ### Compatibility:
 * macOS 10.13 High Sierra
